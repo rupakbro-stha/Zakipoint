@@ -1,0 +1,134 @@
+:root {
+    --global-font-family: Inter, sans-serif;
+    --global-font-size: 72px;
+    --global-text-color: #000000;
+    --global-color-primary: #BBE1FA;
+    --global-color-primary2: #3282B8;
+    --global-color-primary3: #0F4C75;
+    --global-color-primary4: #1B262C;
+}
+
+body {
+    font-family: var(--global-font-family);
+    color: var(--global-text-color);
+    margin: 28px 65px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+
+}
+
+
+.nav-links {
+    color: #1B262C;
+    display: flex;
+    list-style-type: none;
+    margin-right: 181px;
+    gap: 50px;
+    font-size: 18px;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+
+.active{
+
+    text-decoration: underline solid 2px ;
+    text-underline-offset: 8px;
+
+}
+
+
+
+.flex-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+
+    width: 161px;
+    height: 57px;
+
+}
+
+.userprofile{
+    height: 35px;
+    width: 35px;
+    border-radius: 0px;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+
+.hero-heading{
+    margin: 46px 0;
+    display: grid;
+    gap: 0;
+
+}
+.welcome{
+
+    margin: 0;
+    position: absolute;
+    width: 294px;
+    height: 42px;
+    left: 150px;
+    top: 110px;
+
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+
+    letter-spacing: 0.12em;
+    color: var(--global-color-primary3);
+}
+
+.welcome-heading{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 240px;
+    width: 378px;
+    left: 150px;
+    top: 147px;
+    z-index: 10;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.06em;
+    color: var(--global-color-primary3);
+
+
+}
+
+
+
+.bg-img{
+    position: absolute;
+
+    height: 509px;
+    width: 914px;
+    left: 412px;
+    top: 128px;
+    border-radius: 0px;
+
+
+}
