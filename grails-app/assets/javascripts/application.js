@@ -5,6 +5,7 @@
 // You're free to add application-wide JavaScript to this file, but it's generally better
 // to create separate JavaScript files as needed.
 //
+//= require main
 //= require jquery-3.5.1.min
 //= require popper.min
 //= require bootstrap
