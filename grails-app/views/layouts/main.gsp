@@ -26,7 +26,7 @@
 %{--   navlinks--}%
     <div class="nav-links">
     <li><a href="#" class="nav-link active" >Home</a></li>
-    <li><a href="#" class="nav-link " >Employee</a></li>
+    <li><a href="/hello" class="nav-link " >Employee</a></li>
     <li><a href="#" class="nav-link " >About</a></li>
 
 </div>

@@ -25,6 +25,8 @@ class FirstTagLib {
         }
     }
 
-
+    def testTag = { attrs, body ->
+        out << '<span>test span </span>'
+    }
 
 }
